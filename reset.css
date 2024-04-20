@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'NFS';
+    src: url("./fontes/NFS_font.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+}

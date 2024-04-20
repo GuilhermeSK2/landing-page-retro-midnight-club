@@ -1,0 +1,102 @@
+body {
+    background-image: url(./assets/img/bg-midnightClub.jpeg);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    border: 5px solid #757575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #920101;
+}
+
+.navbar #logo img{
+    background-color: #adadad;
+    border-radius: 10px;
+    padding: 5px;
+    width: 180px;
+    margin: 15px 10px 15px 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: 'NFS';
+    letter-spacing: 2px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    height: 80vh;
+}
+
+.content h1 {
+    border-radius: 10px;
+    padding: 20px;
+    border: 8px solid #fff;
+    background-color: #000;
+    color: #fff;
+    font-family: 'NFS';
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: #fff;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 20px;
+    border: 5px solid #fff;
+    background: #d87a0f6b;
+}
+
+.trailer {
+    float: right;
+    margin-top: -550px;
+    margin-right: 210px;
+    border-radius: 10px;
+    border: 5px solid #ffffff;
+}
+
+.trilhaSonora {
+    color: #fff;
+    background-color: #920101;
+    display: flex;
+    width: 100vw;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid #757575;
+}
+
+.trilhaSonora h2 {
+    font-family: 'NFS';
+    letter-spacing: 10px;
+    margin-left: 40px;
+}
+
+.trilhaSonora .audio {
+    color: #000;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 400px;
+}
